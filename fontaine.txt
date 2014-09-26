@@ -1,0 +1,391 @@
+Fonts
+  All fonts have the same character sets.
+  Font:
+    Common name: Khula
+    Sub family: wt937.36
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2012 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.03
+    Designer: Monotype Design team, Erin McLaughlin
+    Designer url: http://code.google.com/p/noto/
+    Glyph count: 757
+    Character count: 757
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 48
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 65
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2012 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.03
+    Designer: Monotype Design team, Erin McLaughlin
+    Designer url: http://code.google.com/p/noto/
+    Glyph count: 757
+    Character count: 757
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 48
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 65
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Khula
+    Sub family: wt719.83
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2012 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.03
+    Designer: Monotype Design team, Erin McLaughlin
+    Designer url: http://code.google.com/p/noto/
+    Glyph count: 757
+    Character count: 757
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 48
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 65
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Khula
+    Sub family: wt232.83
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2012 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.03
+    Designer: Monotype Design team, Erin McLaughlin
+    Designer url: http://code.google.com/p/noto/
+    Glyph count: 757
+    Character count: 757
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 48
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 65
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Khula
+    Sub family: wt937.36
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2012 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.03
+    Designer: Monotype Design team, Erin McLaughlin
+    Designer url: http://code.google.com/p/noto/
+    Glyph count: 757
+    Character count: 757
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 48
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 65
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Khula
+    Sub family: wt719.83
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2012 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.03
+    Designer: Monotype Design team, Erin McLaughlin
+    Designer url: http://code.google.com/p/noto/
+    Glyph count: 757
+    Character count: 757
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 48
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 65
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Khula
+    Sub family: wt439.67
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2012 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.03
+    Designer: Monotype Design team, Erin McLaughlin
+    Designer url: http://code.google.com/p/noto/
+    Glyph count: 757
+    Character count: 757
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 48
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 65
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Khula
+    Sub family: wt221.97
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2012 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.03
+    Designer: Monotype Design team, Erin McLaughlin
+    Designer url: http://code.google.com/p/noto/
+    Glyph count: 757
+    Character count: 757
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 48
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 65
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Khula
+    Sub family: ExraBold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2012 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.03
+    Designer: Monotype Design team, Erin McLaughlin
+    Designer url: http://code.google.com/p/noto/
+    Glyph count: 755
+    Character count: 755
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 48
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 66
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Khula
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright 2012 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.03
+    Designer: Monotype Design team
+    Designer url: http://code.google.com/p/noto/
+    Glyph count: 750
+    Character count: 750
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: fragmentary
+          Percent coverage: 48
+        Orthography:
+          Common name: Subset devanagari
+          Support level: fragmentary
+          Percent coverage: 66
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23

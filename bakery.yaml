@@ -1,0 +1,9 @@
+commit: HEAD
+compiler: afdko
+process_files: [UFO_masters/Khula-Light.ufo, UFO_masters/Khula-ExtraBold.ufo, UFO_masters/Khula-wt937.36.ufo,
+  instances/Khula-wt221.97.ufo, instances/Khula-wt439.67.ufo, instances/Khula-wt719.83.ufo,
+  instances/Khula-wt937.36.ufo, x_Latin_OpenSans/reg.ufo, x_Latin_OpenSans/bold.ufo,
+  x_Latin_OpenSans/semi.ufo, x_Latin_OpenSans/exbold.ufo]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

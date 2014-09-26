@@ -1,0 +1,1573 @@
+Khula-ExtraBold.ufo:
+  error:
+  - autofix: true
+    err_msg: ''
+    methodDoc: Source TTF Font filename equals family style
+    methodName: test_source_ttf_font_filename_equals_familystyle
+    name: bakery_lint.tests.upstream.test_font_filename_eq_familystyle
+    tags: &id003 [note]
+    targets: &id004 [upstream, upstream-ttx]
+    tool: lint
+  - autofix: false
+    err_msg: '''RGlyph'' object has no attribute ''removeOverlap'''
+    methodDoc: In font there shouldn't be too many overlapping contours
+    methodName: test_contour_count
+    name: bakery_lint.tests.upstream.test_contour_count
+    tags: &id005 [note]
+    targets: &id006 [upstream]
+    tool: lint
+  - autofix: false
+    err_msg: has_character() takes exactly 2 arguments (3 given)
+    methodDoc: '''ascii'' codec can''t encode character u''\u20b9'' in position 35:
+      ordinal not in range(128)'
+    methodName: test_has_rupee
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: &id007 [note]
+    targets: &id001 [upstream]
+    tool: Robofab
+  failure:
+  - autofix: false
+    err_msg: The Unicode value for eshortvowelsigndeva may not be correct.
+    methodDoc: A Unicode value should appear only once per font
+    methodName: testUnicodeValue
+    name: bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font
+    tags: &id008 [note]
+    targets: &id009 [upstream]
+    tool: lint
+  - autofix: false
+    err_msg: 'Lists differ: [3] != [0]
+
+
+      First differing element 0:
+
+      3
+
+      0
+
+
+      - [3]
+
+      + [0]'
+    methodDoc: Is the OS/2 table fsType set to 0?
+    methodName: test_is_fsType_eq_1
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: &id010 [note]
+    targets: *id001
+    tool: Robofab
+  fixed: []
+  passed: true
+  success:
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font have a glyph named 'A'?
+    methodName: test_is_A
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: &id011 [note]
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this font's property A an instance of an RGlyph object?
+    methodName: test_is_A_a_glyph_instance
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: &id012 [note]
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font file's name end with '.ufo'?
+    methodName: test_is_ended_ufo
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: &id013 [note]
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this UFO really a folder?
+    methodName: test_is_folder
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: &id014 [note]
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this UFO path exist?
+    methodName: test_it_exists
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: &id015 [note]
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_familyname_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: &id016 [note]
+    targets: &id002 [upstream]
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_fullfontname_less_than_64_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: &id017 [note]
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_consistof_allowed_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: &id018 [note]
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_less_than_30_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: &id019 [note]
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_stylename_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: &id020 [note]
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_weight_value_range_between_250_and_900
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: &id021 [note]
+    targets: *id002
+    tool: FontForge
+Khula-Light.ufo:
+  error:
+  - autofix: true
+    err_msg: ''
+    methodDoc: Source TTF Font filename equals family style
+    methodName: test_source_ttf_font_filename_equals_familystyle
+    name: bakery_lint.tests.upstream.test_font_filename_eq_familystyle
+    tags: *id003
+    targets: *id004
+    tool: lint
+  - autofix: false
+    err_msg: '''RGlyph'' object has no attribute ''removeOverlap'''
+    methodDoc: In font there shouldn't be too many overlapping contours
+    methodName: test_contour_count
+    name: bakery_lint.tests.upstream.test_contour_count
+    tags: *id005
+    targets: *id006
+    tool: lint
+  - autofix: false
+    err_msg: has_character() takes exactly 2 arguments (3 given)
+    methodDoc: '''ascii'' codec can''t encode character u''\u20b9'' in position 35:
+      ordinal not in range(128)'
+    methodName: test_has_rupee
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id007
+    targets: *id001
+    tool: Robofab
+  failure:
+  - autofix: false
+    err_msg: The Unicode value for eshortvowelsigndeva may not be correct.
+    methodDoc: A Unicode value should appear only once per font
+    methodName: testUnicodeValue
+    name: bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font
+    tags: *id008
+    targets: *id009
+    tool: lint
+  - autofix: false
+    err_msg: 'Lists differ: [3] != [0]
+
+
+      First differing element 0:
+
+      3
+
+      0
+
+
+      - [3]
+
+      + [0]'
+    methodDoc: Is the OS/2 table fsType set to 0?
+    methodName: test_is_fsType_eq_1
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id010
+    targets: *id001
+    tool: Robofab
+  fixed: []
+  passed: true
+  success:
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font have a glyph named 'A'?
+    methodName: test_is_A
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id011
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this font's property A an instance of an RGlyph object?
+    methodName: test_is_A_a_glyph_instance
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id012
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font file's name end with '.ufo'?
+    methodName: test_is_ended_ufo
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id013
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this UFO really a folder?
+    methodName: test_is_folder
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id014
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this UFO path exist?
+    methodName: test_it_exists
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id015
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_familyname_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id016
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_fullfontname_less_than_64_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id017
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_consistof_allowed_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id018
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_less_than_30_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id019
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_stylename_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id020
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_weight_value_range_between_250_and_900
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id021
+    targets: *id002
+    tool: FontForge
+Khula-wt221.97.ufo:
+  error:
+  - autofix: true
+    err_msg: ''
+    methodDoc: Source TTF Font filename equals family style
+    methodName: test_source_ttf_font_filename_equals_familystyle
+    name: bakery_lint.tests.upstream.test_font_filename_eq_familystyle
+    tags: *id003
+    targets: *id004
+    tool: lint
+  - autofix: false
+    err_msg: '''RGlyph'' object has no attribute ''removeOverlap'''
+    methodDoc: In font there shouldn't be too many overlapping contours
+    methodName: test_contour_count
+    name: bakery_lint.tests.upstream.test_contour_count
+    tags: *id005
+    targets: *id006
+    tool: lint
+  - autofix: false
+    err_msg: has_character() takes exactly 2 arguments (3 given)
+    methodDoc: '''ascii'' codec can''t encode character u''\u20b9'' in position 35:
+      ordinal not in range(128)'
+    methodName: test_has_rupee
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id007
+    targets: *id001
+    tool: Robofab
+  failure:
+  - autofix: false
+    err_msg: The Unicode value for eshortvowelsigndeva may not be correct.
+    methodDoc: A Unicode value should appear only once per font
+    methodName: testUnicodeValue
+    name: bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font
+    tags: *id008
+    targets: *id009
+    tool: lint
+  - autofix: false
+    err_msg: 'Lists differ: [3] != [0]
+
+
+      First differing element 0:
+
+      3
+
+      0
+
+
+      - [3]
+
+      + [0]'
+    methodDoc: Is the OS/2 table fsType set to 0?
+    methodName: test_is_fsType_eq_1
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id010
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: '`PostScript Name` may contain only a-zA-Z0-9 characters and one hyphen:
+      ''^[a-zA-Z0-9]+\\-?[a-zA-Z0-9]+$'' not found in ''Khula-wt221.97'''
+    methodDoc: None
+    methodName: test_postscriptname_consistof_allowed_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id018
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: 'Weight has to be in steps of 50. Now: 411'
+    methodDoc: None
+    methodName: test_weight_value_range_between_250_and_900
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id021
+    targets: *id002
+    tool: FontForge
+  fixed: []
+  passed: true
+  success:
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font have a glyph named 'A'?
+    methodName: test_is_A
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id011
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this font's property A an instance of an RGlyph object?
+    methodName: test_is_A_a_glyph_instance
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id012
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font file's name end with '.ufo'?
+    methodName: test_is_ended_ufo
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id013
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this UFO really a folder?
+    methodName: test_is_folder
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id014
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this UFO path exist?
+    methodName: test_it_exists
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id015
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_familyname_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id016
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_fullfontname_less_than_64_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id017
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_less_than_30_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id019
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_stylename_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id020
+    targets: *id002
+    tool: FontForge
+Khula-wt439.67.ufo:
+  error:
+  - autofix: true
+    err_msg: ''
+    methodDoc: Source TTF Font filename equals family style
+    methodName: test_source_ttf_font_filename_equals_familystyle
+    name: bakery_lint.tests.upstream.test_font_filename_eq_familystyle
+    tags: *id003
+    targets: *id004
+    tool: lint
+  - autofix: false
+    err_msg: '''RGlyph'' object has no attribute ''removeOverlap'''
+    methodDoc: In font there shouldn't be too many overlapping contours
+    methodName: test_contour_count
+    name: bakery_lint.tests.upstream.test_contour_count
+    tags: *id005
+    targets: *id006
+    tool: lint
+  - autofix: false
+    err_msg: has_character() takes exactly 2 arguments (3 given)
+    methodDoc: '''ascii'' codec can''t encode character u''\u20b9'' in position 35:
+      ordinal not in range(128)'
+    methodName: test_has_rupee
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id007
+    targets: *id001
+    tool: Robofab
+  failure:
+  - autofix: false
+    err_msg: The Unicode value for eshortvowelsigndeva may not be correct.
+    methodDoc: A Unicode value should appear only once per font
+    methodName: testUnicodeValue
+    name: bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font
+    tags: *id008
+    targets: *id009
+    tool: lint
+  - autofix: false
+    err_msg: 'Lists differ: [3] != [0]
+
+
+      First differing element 0:
+
+      3
+
+      0
+
+
+      - [3]
+
+      + [0]'
+    methodDoc: Is the OS/2 table fsType set to 0?
+    methodName: test_is_fsType_eq_1
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id010
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: '`PostScript Name` may contain only a-zA-Z0-9 characters and one hyphen:
+      ''^[a-zA-Z0-9]+\\-?[a-zA-Z0-9]+$'' not found in ''Khula-wt439.67'''
+    methodDoc: None
+    methodName: test_postscriptname_consistof_allowed_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id018
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: 'Weight has to be in steps of 50. Now: 520'
+    methodDoc: None
+    methodName: test_weight_value_range_between_250_and_900
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id021
+    targets: *id002
+    tool: FontForge
+  fixed: []
+  passed: true
+  success:
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font have a glyph named 'A'?
+    methodName: test_is_A
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id011
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this font's property A an instance of an RGlyph object?
+    methodName: test_is_A_a_glyph_instance
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id012
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font file's name end with '.ufo'?
+    methodName: test_is_ended_ufo
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id013
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this UFO really a folder?
+    methodName: test_is_folder
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id014
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this UFO path exist?
+    methodName: test_it_exists
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id015
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_familyname_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id016
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_fullfontname_less_than_64_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id017
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_less_than_30_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id019
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_stylename_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id020
+    targets: *id002
+    tool: FontForge
+Khula-wt719.83.ufo:
+  error:
+  - autofix: true
+    err_msg: ''
+    methodDoc: Source TTF Font filename equals family style
+    methodName: test_source_ttf_font_filename_equals_familystyle
+    name: bakery_lint.tests.upstream.test_font_filename_eq_familystyle
+    tags: *id003
+    targets: *id004
+    tool: lint
+  - autofix: false
+    err_msg: '''RGlyph'' object has no attribute ''removeOverlap'''
+    methodDoc: In font there shouldn't be too many overlapping contours
+    methodName: test_contour_count
+    name: bakery_lint.tests.upstream.test_contour_count
+    tags: *id005
+    targets: *id006
+    tool: lint
+  - autofix: false
+    err_msg: has_character() takes exactly 2 arguments (3 given)
+    methodDoc: '''ascii'' codec can''t encode character u''\u20b9'' in position 35:
+      ordinal not in range(128)'
+    methodName: test_has_rupee
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id007
+    targets: *id001
+    tool: Robofab
+  failure:
+  - autofix: false
+    err_msg: The Unicode value for eshortvowelsigndeva may not be correct.
+    methodDoc: A Unicode value should appear only once per font
+    methodName: testUnicodeValue
+    name: bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font
+    tags: *id008
+    targets: *id009
+    tool: lint
+  - autofix: false
+    err_msg: 'Lists differ: [3] != [0]
+
+
+      First differing element 0:
+
+      3
+
+      0
+
+
+      - [3]
+
+      + [0]'
+    methodDoc: Is the OS/2 table fsType set to 0?
+    methodName: test_is_fsType_eq_1
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id010
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: '`PostScript Name` may contain only a-zA-Z0-9 characters and one hyphen:
+      ''^[a-zA-Z0-9]+\\-?[a-zA-Z0-9]+$'' not found in ''Khula-wt719.83'''
+    methodDoc: None
+    methodName: test_postscriptname_consistof_allowed_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id018
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: 'Weight has to be in steps of 50. Now: 660'
+    methodDoc: None
+    methodName: test_weight_value_range_between_250_and_900
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id021
+    targets: *id002
+    tool: FontForge
+  fixed: []
+  passed: true
+  success:
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font have a glyph named 'A'?
+    methodName: test_is_A
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id011
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this font's property A an instance of an RGlyph object?
+    methodName: test_is_A_a_glyph_instance
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id012
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font file's name end with '.ufo'?
+    methodName: test_is_ended_ufo
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id013
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this UFO really a folder?
+    methodName: test_is_folder
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id014
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this UFO path exist?
+    methodName: test_it_exists
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id015
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_familyname_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id016
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_fullfontname_less_than_64_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id017
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_less_than_30_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id019
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_stylename_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id020
+    targets: *id002
+    tool: FontForge
+Khula-wt937.36.ufo:
+  error:
+  - autofix: true
+    err_msg: ''
+    methodDoc: Source TTF Font filename equals family style
+    methodName: test_source_ttf_font_filename_equals_familystyle
+    name: bakery_lint.tests.upstream.test_font_filename_eq_familystyle
+    tags: *id003
+    targets: *id004
+    tool: lint
+  - autofix: false
+    err_msg: '''RGlyph'' object has no attribute ''removeOverlap'''
+    methodDoc: In font there shouldn't be too many overlapping contours
+    methodName: test_contour_count
+    name: bakery_lint.tests.upstream.test_contour_count
+    tags: *id005
+    targets: *id006
+    tool: lint
+  - autofix: false
+    err_msg: has_character() takes exactly 2 arguments (3 given)
+    methodDoc: '''ascii'' codec can''t encode character u''\u20b9'' in position 35:
+      ordinal not in range(128)'
+    methodName: test_has_rupee
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id007
+    targets: *id001
+    tool: Robofab
+  failure:
+  - autofix: false
+    err_msg: The Unicode value for eshortvowelsigndeva may not be correct.
+    methodDoc: A Unicode value should appear only once per font
+    methodName: testUnicodeValue
+    name: bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font
+    tags: *id008
+    targets: *id009
+    tool: lint
+  - autofix: false
+    err_msg: 'Lists differ: [3] != [0]
+
+
+      First differing element 0:
+
+      3
+
+      0
+
+
+      - [3]
+
+      + [0]'
+    methodDoc: Is the OS/2 table fsType set to 0?
+    methodName: test_is_fsType_eq_1
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id010
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: '`PostScript Name` may contain only a-zA-Z0-9 characters and one hyphen:
+      ''^[a-zA-Z0-9]+\\-?[a-zA-Z0-9]+$'' not found in ''Khula-wt937.36'''
+    methodDoc: None
+    methodName: test_postscriptname_consistof_allowed_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id018
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: 'Weight has to be in steps of 50. Now: 769'
+    methodDoc: None
+    methodName: test_weight_value_range_between_250_and_900
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id021
+    targets: *id002
+    tool: FontForge
+  fixed: []
+  passed: true
+  success:
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font have a glyph named 'A'?
+    methodName: test_is_A
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id011
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this font's property A an instance of an RGlyph object?
+    methodName: test_is_A_a_glyph_instance
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id012
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font file's name end with '.ufo'?
+    methodName: test_is_ended_ufo
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id013
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this UFO really a folder?
+    methodName: test_is_folder
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id014
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this UFO path exist?
+    methodName: test_it_exists
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id015
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_familyname_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id016
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_fullfontname_less_than_64_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id017
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_less_than_30_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id019
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_stylename_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id020
+    targets: *id002
+    tool: FontForge
+Project:
+  error: []
+  failure:
+  - autofix: false
+    err_msg: Number of contours of glyph "dollar" does not match. Expected 1 contours,
+      but actual is 3 contours
+    methodDoc: Check that glyphs has same number of contours across family
+    methodName: test_font_prepolation_glyph_contours
+    name: bakery_lint.tests.upstream.test_prepolation
+    tags: [note]
+    targets: &id022 [upstream-repo]
+    tool: lint
+  - autofix: false
+    err_msg: Number of points of glyph "dollar" does not match. Expected 23 points,
+      but actual is 33 points
+    methodDoc: Check that glyphs has same number of points across family
+    methodName: test_font_prepolation_glyph_points
+    name: bakery_lint.tests.upstream.test_prepolation
+    tags: [note]
+    targets: *id022
+    tool: lint
+  - autofix: false
+    err_msg: 42.50% are made by Composite
+    methodDoc: Check that diacritic glyph are made completely with composite
+    methodName: test_diacritic_made_as_component
+    name: bakery_lint.tests.upstream.test_diacritic
+    tags: [note]
+    targets: &id023 [upstream-repo]
+    tool: lint
+  - autofix: false
+    err_msg: 7.50% are made by Mark
+    methodDoc: Check that diacritic glyph are made completely with mark method
+    methodName: test_diacritic_made_as_mark_to_mark
+    name: bakery_lint.tests.upstream.test_diacritic
+    tags: [note]
+    targets: *id023
+    tool: lint
+  - autofix: false
+    err_msg: 57.50% are made by Flat
+    methodDoc: Check that diacritic glyph are made completely with flat method
+    methodName: test_diacritic_made_as_own_glyphs
+    name: bakery_lint.tests.upstream.test_diacritic
+    tags: [note]
+    targets: *id023
+    tool: lint
+  - autofix: false
+    err_msg: File `DESCRIPTION.en_us.html` does not exist in root of upstream repository
+    methodDoc: Repository does containDESCRIPTION.en_us.html file
+    methodName: test_description_html_exists
+    name: bakery_lint.tests.upstream.test_check_upstream_sources
+    tags: [note]
+    targets: &id024 [upstream-repo]
+    tool: FontBakery
+  - autofix: false
+    err_msg: File `FONTLOG.txt` does not exist in root of upstream repository
+    methodDoc: Repository does contain FONTLOG.txt file
+    methodName: test_fontlog_txt_exists
+    name: bakery_lint.tests.upstream.test_check_upstream_sources
+    tags: [note]
+    targets: *id024
+    tool: FontBakery
+  - autofix: false
+    err_msg: File `METADATA.json` does not exist in root of upstream repository
+    methodDoc: Repository does contain METADATA.json file
+    methodName: test_metadata_json_exists
+    name: bakery_lint.tests.upstream.test_check_upstream_sources
+    tags: [note]
+    targets: *id024
+    tool: FontBakery
+  fixed: []
+  passed: true
+  success:
+  - autofix: false
+    err_msg: ''
+    methodDoc: Check glyph names are all the same across family
+    methodName: test_font_test_prepolation_glyph_names
+    name: bakery_lint.tests.upstream.test_prepolation
+    tags: [note]
+    targets: *id022
+    tool: lint
+  - autofix: false
+    err_msg: ''
+    methodDoc: Repository does contain bakery.yaml configuration file
+    methodName: test_bakery_yaml_exists
+    name: bakery_lint.tests.upstream.test_check_upstream_sources
+    tags: [note]
+    targets: *id024
+    tool: FontBakery
+  - autofix: false
+    err_msg: ''
+    methodDoc: Are all copyright notices the same in all styles?
+    methodName: test_copyright_notices_same_across_family
+    name: bakery_lint.tests.upstream.test_check_upstream_sources
+    tags: [note]
+    targets: *id024
+    tool: FontBakery
+bold.ufo:
+  error:
+  - autofix: true
+    err_msg: ''
+    methodDoc: Source TTF Font filename equals family style
+    methodName: test_source_ttf_font_filename_equals_familystyle
+    name: bakery_lint.tests.upstream.test_font_filename_eq_familystyle
+    tags: *id003
+    targets: *id004
+    tool: lint
+  - autofix: false
+    err_msg: '''RGlyph'' object has no attribute ''removeOverlap'''
+    methodDoc: In font there shouldn't be too many overlapping contours
+    methodName: test_contour_count
+    name: bakery_lint.tests.upstream.test_contour_count
+    tags: *id005
+    targets: *id006
+    tool: lint
+  - autofix: false
+    err_msg: has_character() takes exactly 2 arguments (3 given)
+    methodDoc: '''ascii'' codec can''t encode character u''\u20b9'' in position 35:
+      ordinal not in range(128)'
+    methodName: test_has_rupee
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id007
+    targets: *id001
+    tool: Robofab
+  failure:
+  - autofix: false
+    err_msg: The Unicode value for eshortvowelsigndeva may not be correct.
+    methodDoc: A Unicode value should appear only once per font
+    methodName: testUnicodeValue
+    name: bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font
+    tags: *id008
+    targets: *id009
+    tool: lint
+  - autofix: false
+    err_msg: 'Lists differ: [3] != [0]
+
+
+      First differing element 0:
+
+      3
+
+      0
+
+
+      - [3]
+
+      + [0]'
+    methodDoc: Is the OS/2 table fsType set to 0?
+    methodName: test_is_fsType_eq_1
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id010
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: '`PostScript Name` may contain only a-zA-Z0-9 characters and one hyphen:
+      ''^[a-zA-Z0-9]+\\-?[a-zA-Z0-9]+$'' not found in ''Khula-wt719.83'''
+    methodDoc: None
+    methodName: test_postscriptname_consistof_allowed_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id018
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: 'Weight has to be in steps of 50. Now: 660'
+    methodDoc: None
+    methodName: test_weight_value_range_between_250_and_900
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id021
+    targets: *id002
+    tool: FontForge
+  fixed: []
+  passed: true
+  success:
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font have a glyph named 'A'?
+    methodName: test_is_A
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id011
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this font's property A an instance of an RGlyph object?
+    methodName: test_is_A_a_glyph_instance
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id012
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font file's name end with '.ufo'?
+    methodName: test_is_ended_ufo
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id013
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this UFO really a folder?
+    methodName: test_is_folder
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id014
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this UFO path exist?
+    methodName: test_it_exists
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id015
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_familyname_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id016
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_fullfontname_less_than_64_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id017
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_less_than_30_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id019
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_stylename_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id020
+    targets: *id002
+    tool: FontForge
+exbold.ufo:
+  error:
+  - autofix: true
+    err_msg: ''
+    methodDoc: Source TTF Font filename equals family style
+    methodName: test_source_ttf_font_filename_equals_familystyle
+    name: bakery_lint.tests.upstream.test_font_filename_eq_familystyle
+    tags: *id003
+    targets: *id004
+    tool: lint
+  - autofix: false
+    err_msg: '''RGlyph'' object has no attribute ''removeOverlap'''
+    methodDoc: In font there shouldn't be too many overlapping contours
+    methodName: test_contour_count
+    name: bakery_lint.tests.upstream.test_contour_count
+    tags: *id005
+    targets: *id006
+    tool: lint
+  - autofix: false
+    err_msg: has_character() takes exactly 2 arguments (3 given)
+    methodDoc: '''ascii'' codec can''t encode character u''\u20b9'' in position 35:
+      ordinal not in range(128)'
+    methodName: test_has_rupee
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id007
+    targets: *id001
+    tool: Robofab
+  failure:
+  - autofix: false
+    err_msg: The Unicode value for eshortvowelsigndeva may not be correct.
+    methodDoc: A Unicode value should appear only once per font
+    methodName: testUnicodeValue
+    name: bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font
+    tags: *id008
+    targets: *id009
+    tool: lint
+  - autofix: false
+    err_msg: 'Lists differ: [3] != [0]
+
+
+      First differing element 0:
+
+      3
+
+      0
+
+
+      - [3]
+
+      + [0]'
+    methodDoc: Is the OS/2 table fsType set to 0?
+    methodName: test_is_fsType_eq_1
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id010
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: '`PostScript Name` may contain only a-zA-Z0-9 characters and one hyphen:
+      ''^[a-zA-Z0-9]+\\-?[a-zA-Z0-9]+$'' not found in ''Khula-wt937.36'''
+    methodDoc: None
+    methodName: test_postscriptname_consistof_allowed_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id018
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: 'Weight has to be in steps of 50. Now: 769'
+    methodDoc: None
+    methodName: test_weight_value_range_between_250_and_900
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id021
+    targets: *id002
+    tool: FontForge
+  fixed: []
+  passed: true
+  success:
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font have a glyph named 'A'?
+    methodName: test_is_A
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id011
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this font's property A an instance of an RGlyph object?
+    methodName: test_is_A_a_glyph_instance
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id012
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font file's name end with '.ufo'?
+    methodName: test_is_ended_ufo
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id013
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this UFO really a folder?
+    methodName: test_is_folder
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id014
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this UFO path exist?
+    methodName: test_it_exists
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id015
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_familyname_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id016
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_fullfontname_less_than_64_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id017
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_less_than_30_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id019
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_stylename_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id020
+    targets: *id002
+    tool: FontForge
+reg.ufo:
+  error:
+  - autofix: true
+    err_msg: ''
+    methodDoc: Source TTF Font filename equals family style
+    methodName: test_source_ttf_font_filename_equals_familystyle
+    name: bakery_lint.tests.upstream.test_font_filename_eq_familystyle
+    tags: *id003
+    targets: *id004
+    tool: lint
+  - autofix: false
+    err_msg: '''RGlyph'' object has no attribute ''removeOverlap'''
+    methodDoc: In font there shouldn't be too many overlapping contours
+    methodName: test_contour_count
+    name: bakery_lint.tests.upstream.test_contour_count
+    tags: *id005
+    targets: *id006
+    tool: lint
+  - autofix: false
+    err_msg: has_character() takes exactly 2 arguments (3 given)
+    methodDoc: '''ascii'' codec can''t encode character u''\u20b9'' in position 35:
+      ordinal not in range(128)'
+    methodName: test_has_rupee
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id007
+    targets: *id001
+    tool: Robofab
+  failure:
+  - autofix: false
+    err_msg: The Unicode value for eshortvowelsigndeva may not be correct.
+    methodDoc: A Unicode value should appear only once per font
+    methodName: testUnicodeValue
+    name: bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font
+    tags: *id008
+    targets: *id009
+    tool: lint
+  - autofix: false
+    err_msg: 'Lists differ: [3] != [0]
+
+
+      First differing element 0:
+
+      3
+
+      0
+
+
+      - [3]
+
+      + [0]'
+    methodDoc: Is the OS/2 table fsType set to 0?
+    methodName: test_is_fsType_eq_1
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id010
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: '`PostScript Name` may contain only a-zA-Z0-9 characters and one hyphen:
+      ''^[a-zA-Z0-9]+\\-?[a-zA-Z0-9]+$'' not found in ''Khula-wt232.83'''
+    methodDoc: None
+    methodName: test_postscriptname_consistof_allowed_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id018
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: 'Weight has to be in steps of 50. Now: 416'
+    methodDoc: None
+    methodName: test_weight_value_range_between_250_and_900
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id021
+    targets: *id002
+    tool: FontForge
+  fixed: []
+  passed: true
+  success:
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font have a glyph named 'A'?
+    methodName: test_is_A
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id011
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this font's property A an instance of an RGlyph object?
+    methodName: test_is_A_a_glyph_instance
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id012
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font file's name end with '.ufo'?
+    methodName: test_is_ended_ufo
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id013
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this UFO really a folder?
+    methodName: test_is_folder
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id014
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this UFO path exist?
+    methodName: test_it_exists
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id015
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_familyname_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id016
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_fullfontname_less_than_64_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id017
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_less_than_30_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id019
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_stylename_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id020
+    targets: *id002
+    tool: FontForge
+semi.ufo:
+  error:
+  - autofix: true
+    err_msg: ''
+    methodDoc: Source TTF Font filename equals family style
+    methodName: test_source_ttf_font_filename_equals_familystyle
+    name: bakery_lint.tests.upstream.test_font_filename_eq_familystyle
+    tags: *id003
+    targets: *id004
+    tool: lint
+  - autofix: false
+    err_msg: '''RGlyph'' object has no attribute ''removeOverlap'''
+    methodDoc: In font there shouldn't be too many overlapping contours
+    methodName: test_contour_count
+    name: bakery_lint.tests.upstream.test_contour_count
+    tags: *id005
+    targets: *id006
+    tool: lint
+  - autofix: false
+    err_msg: has_character() takes exactly 2 arguments (3 given)
+    methodDoc: '''ascii'' codec can''t encode character u''\u20b9'' in position 35:
+      ordinal not in range(128)'
+    methodName: test_has_rupee
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id007
+    targets: *id001
+    tool: Robofab
+  failure:
+  - autofix: false
+    err_msg: The Unicode value for eshortvowelsigndeva may not be correct.
+    methodDoc: A Unicode value should appear only once per font
+    methodName: testUnicodeValue
+    name: bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font
+    tags: *id008
+    targets: *id009
+    tool: lint
+  - autofix: false
+    err_msg: 'Lists differ: [3] != [0]
+
+
+      First differing element 0:
+
+      3
+
+      0
+
+
+      - [3]
+
+      + [0]'
+    methodDoc: Is the OS/2 table fsType set to 0?
+    methodName: test_is_fsType_eq_1
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id010
+    targets: *id001
+    tool: Robofab
+  fixed: []
+  passed: true
+  success:
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font have a glyph named 'A'?
+    methodName: test_is_A
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id011
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this font's property A an instance of an RGlyph object?
+    methodName: test_is_A_a_glyph_instance
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id012
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this font file's name end with '.ufo'?
+    methodName: test_is_ended_ufo
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id013
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Is this UFO really a folder?
+    methodName: test_is_folder
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id014
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: Does this UFO path exist?
+    methodName: test_it_exists
+    name: bakery_lint.tests.upstream.test_check_ufo_requirements
+    tags: *id015
+    targets: *id001
+    tool: Robofab
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_familyname_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id016
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_fullfontname_less_than_64_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id017
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_consistof_allowed_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id018
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_postscriptname_less_than_30_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id019
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_stylename_less_than_32_chars
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id020
+    targets: *id002
+    tool: FontForge
+  - autofix: false
+    err_msg: ''
+    methodDoc: None
+    methodName: test_weight_value_range_between_250_and_900
+    name: bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations
+    tags: *id021
+    targets: *id002
+    tool: FontForge
